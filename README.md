@@ -1,7 +1,5 @@
 # RT-Subs: Real-Time Transcriber and Translator
 
-# RT-Subs: Real-Time Transcriber and Translator
-
 **RT-Subs** is a desktop application that captures your system (or microphone) audio, transcribes it to text using a Whisper.cpp service, and optionally translates the text into other languages. The result is displayed in a customizable on-screen overlay.
 
 The application is designed to be modular and responsive, ensuring the GUI never freezes, even during heavy audio and AI processing.
