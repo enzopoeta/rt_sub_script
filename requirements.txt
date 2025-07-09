@@ -1,0 +1,8 @@
+requests 
+soundcard 
+numpy 
+scipy
+webrtcvad
+setuptools
+pillow
+cairosvg

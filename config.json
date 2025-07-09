@@ -1,0 +1,41 @@
+{
+  "webservice_settings": {
+    "url": "http://localhost:8080/inference",
+    "file_form_name": "file",
+    "response_type": "json",
+    "json_response_key": "text",
+    "temperature": "0.0",
+    "temperature_inc": "0.2",
+    "response_format_param": "json"
+  },
+  "translation_settings": {
+    "enabled": true,
+    "ollama_host": "192.168.0.172",
+    "ollama_port": "11434",
+    "ollama_model": "gemma3:27b-it-q4_K_M",
+    "system_prompt": "You are a helpful and expert translator. Translate the following user-provided text in English to Brazilian Portuguese. Only provide the translated text, without any additional comments, preambles, or explanations."
+  },
+  "audio_settings": {
+    "device_index": "default_mic",
+    "vad_aggressiveness": 3,
+    "vad_trigger_ratio": 0.6,
+    "vad_silence_ms": 100
+  },
+  "audio_processing_settings": {
+    "enable_high_pass": true,
+    "high_pass_cutoff_hz": 100.0,
+    "enable_normalization": true,
+    "min_segment_duration_ms": 250
+  },
+  "overlay_settings": {
+    "font_family": "Arial",
+    "font_size": 42,
+    "font_color": "white",
+    "bg_color": "black",
+    "alpha": 0.75,
+    "position_x": 883,
+    "position_y": 1233,
+    "min_display_ms": 4000,
+    "merge_consecutive_ms": 2000
+  }
+}
