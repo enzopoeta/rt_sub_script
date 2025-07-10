@@ -4,6 +4,8 @@
 
 The application is designed to be modular and responsive, ensuring the GUI never freezes, even during heavy audio and AI processing.
 
+[![Watch the video](https://img.youtube.com/vi/gTduokGR_II/maxresdefault.jpg)](https://www.youtube.com/watch?v=gTduokGR_II)
+
 ## Application Architecture
 
 The architecture of RT-Subs is based on **multithreading** and the use of **Queues** for inter-thread communication. This design decouples the main tasks (audio capture, transcription, translation, and display), ensuring the user interface remains fluid and responsive.
