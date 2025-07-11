@@ -16,9 +16,9 @@
     "system_prompt": "You are a helpful and expert translator. Translate the following user-provided text in English to Brazilian Portuguese. Only provide the translated text, without any additional comments, preambles, or explanations."
   },
   "audio_settings": {
-    "device_index": "default_mic",
+    "device_index": "alsa_output.pci-0000_0f_00.1.hdmi-stereo.monitor",
     "vad_aggressiveness": 3,
-    "vad_trigger_ratio": 0.6,
+    "vad_trigger_ratio": 0.95,
     "vad_silence_ms": 100
   },
   "audio_processing_settings": {
@@ -28,14 +28,24 @@
     "min_segment_duration_ms": 250
   },
   "overlay_settings": {
+    "mode": "estatico",
+    "static_width": 1200,
+    "static_height": 250,
     "font_family": "Arial",
     "font_size": 42,
     "font_color": "white",
     "bg_color": "black",
     "alpha": 0.75,
-    "position_x": 883,
-    "position_y": 1233,
+    "position_x": 1063,
+    "position_y": 1007,
     "min_display_ms": 4000,
     "merge_consecutive_ms": 2000
+  },
+  "autotune_settings": {
+    "enabled": true,
+    "interval_sec": 5,
+    "fp_threshold_ratio": 0.3,
+    "fp_min_char_count": 5,
+    "noise_threshold_db": -40.0
   }
 }
